@@ -4,17 +4,14 @@ import AboutMe from "./containers/AboutMe";
 import Home from "./containers/Home";
 import "./index.css";
 function App() {
- 
-
   return (
     <>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/about"
-            element={<AboutMe />}
-          />
+          <Route path="/portfolio"/>
+          <Route path="/about" element={<AboutMe />} />
+          <Route path="/contact" />
         </Routes>
       </Router>
     </>
