@@ -1,9 +1,9 @@
-import './App.css';
-
+import './index.css';
+import Home from './containers/Home';
 function App() {
   return (
     <>
-    <h1> THIS IS A HOLDING PAGE....</h1>
+    <Home/>
     </>
   );
 }
